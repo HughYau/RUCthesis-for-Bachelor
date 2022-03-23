@@ -11,7 +11,7 @@ Copyright 2022  Qiu Renxiang
 
 CTex库下不同系统和编译器下的配置宏集策略如下图所示：
 ![image](https://github.com/HughYale/RUCthesis-for-Bachelor/blob/master/font.png)
-如果你采用本地编译，windows和mac系统下的中易字库和华文字库均可以正常被知网系统解析。（但也有出现max系统编译出Fandol的情况，请使用Adobe Acrobat等PDF阅读器对字体进行识别）
+如果你采用本地编译，windows和mac系统下的中易字库和华文字库均可以正常被知网系统解析。（但也有出现mac系统编译出Fandol字库的情况，请使用Adobe Acrobat等PDF阅读器对字体进行识别）
 
 然而线上的Overleaf平台内部由于版权问题，仅内置了Fandol字库，其宋体黑体均无法被知网系统解析。
 
