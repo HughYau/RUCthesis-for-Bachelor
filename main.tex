@@ -50,7 +50,13 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 
-
+%将字体改为中易宋体和中易黑体
+\setCJKmainfont{SimSun.ttc}[AutoFakeBold]
+\setCJKsansfont{SimHei.ttf}[AutoFakeBold]
+\setCJKfamilyfont{hei}{SimHei.ttf}[AutoFakeBold]
+\setCJKfamilyfont{song}{SimSun.ttc}[AutoFakeBold]
+\renewcommand{\heiti}{\CJKfamily{hei}}
+\renewcommand{\songti}{\CJKfamily{song}}
 
 \usepackage[backend=biber,style=gb7714-2015ay,gbalign =right,gbpub=true,mergedate=none]{biblatex}
 %biblatex宏包的参考文献数据源加载方式
