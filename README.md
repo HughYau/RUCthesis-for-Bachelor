@@ -7,10 +7,10 @@ Copyright 2022  Qiu Renxiang
 ## 3.24日重大维护！！！
 如果你一直采取windows系统本地编译，请忽略此次更新，否则：
 
-如果你打算在知网论文系统提交论文，请注意，知网系统对于汉字的识别不太完善，目前来看，Fandol字库下的宋体和黑体均无法解析。
+如果你打算在知网论文系统提交论文，请注意，知网系统自带的阅览系统（可能与查重有关）对于汉字的识别不太完善，目前来看，Fandol字库下的宋体和黑体均无法解析。
 
 CTex库下不同系统和编译器下的配置宏集策略如下图所示：
-
+![image](https://github.com/HughYale/RUCthesis-for-Bachelor/blob/master/font.png)
 如果你采用本地编译，windows和mac系统下的中易字库和华文字库均可以正常被知网系统解析。（但也有出现max系统编译出Fandol的情况，请使用Adobe Acrobat等PDF阅读器对字体进行识别）
 
 然而线上的Overleaf平台内部由于版权问题，仅内置了Fandol字库，其宋体黑体均无法被知网系统解析。
